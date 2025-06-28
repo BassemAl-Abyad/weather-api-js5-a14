@@ -1,0 +1,35 @@
+/* media queries */
+/* sm */
+@media (min-width: 640px) {
+}
+/* md */
+@media (min-width: 768px) {
+  .search-bar {
+    margin-top: 300px;
+  }
+  .bg-footer-body {
+    margin-top: 300px;
+  }
+  .forecast-content {
+    height: 400px;
+  }
+  
+}
+/* lg */
+@media (min-width: 1024px) {
+}
+/* xl */
+@media (min-width: 1280px) {
+}
+/* 2xl */
+@media (min-width: 1536px) {
+}
+
+/* special */
+@media (max-width: 990px) {
+    .navbar-nav .custom-nav-link {
+    border: 2px solid gray;
+    border-radius: 25px;
+    margin-block: 5px;
+  }
+}
